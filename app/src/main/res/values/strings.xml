@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AchSoExampleConnection</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="example_layers_box_url">http://layers.box</string>
+    <string name="save_layers_box_address">Save Layers Box address</string>
+    <string name="open_uuid">Open UUID</string>
+    <string name="open_mp4">Open mp4</string>
+    <string name="layers_box_shared_preferences_key">eu.learning-layers.LAYERS_BOX</string>
+    <string name="video_mp4_url">http://achso.aalto.fi/storage/videos/6b583a70-1f34-406b-a6a1-9dd6f26da270.mp4</string>
+    <string name="video_uuid">6b583a70-1f34-406b-a6a1-9dd6f26da270</string>
+</resources>
