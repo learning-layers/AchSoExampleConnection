@@ -16,11 +16,10 @@ Layers Box URL
 --------------
 
 Sharing the Layers Box URL is done using [`SharedPreferences`][sharedprefs] and `MODE_WORLD_READABLE`.
-This technique is marked as deprecated and discouraged, but the alternatives seem even worse (using
-databases, which is way more complicated and has the same risks, or writing plain files to the
-users' directories, which would confuse the users).
+This technique is marked as deprecated and discouraged, but the alternatives are even worse and don't
+really offer more security.
 
-Because the `SharedPreferences` are user readable the URL is encrypted before storing it. This is
+Because the `SharedPreferences` are user readable, the URL is encrypted before storing it. This is
 done using [`CryptoHelper`][cryptohelper]. It can be installed from jCenter as
 `fi.aalto.legroup:cryptohelper`. `CryptoHelper` requires an 128-bit base64 encoded key.
 
